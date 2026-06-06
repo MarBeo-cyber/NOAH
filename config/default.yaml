@@ -1,0 +1,17 @@
+noah:
+  version: "0.3"
+  privacy:
+    k_min: 3
+    bounded_noise_epsilon: 0.0
+    geometry_export_consent_required: true
+    wisdom_trace_export_consent_required: true
+  field:
+    concepts:
+      - silence
+      - urgency
+      - responsibility
+      - reasonable_efforts
+  integration:
+    taaa_prebrief: true
+    xaaa_wisdom_exchange: true
+    aggregated_learning_default: false
